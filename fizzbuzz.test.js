@@ -1,16 +1,19 @@
 const fizzBuzz = require('./fizzbuzz')
 
 // Write a test for a function called fizzbuzz that, given the number 1, it should return 1.
-test('Should return 1', () => {
+test('If input is 1, Should return 1', () => {
     expect(fizzBuzz(1)).toBe(1)
 })
 
 // Write a test that fizzbuzz, given 2, should return 2.
-test('Should return 2', () => {
+test('If input is 2, Should return 2', () => {
     expect(fizzBuzz(2)).toBe(2)
 })
 
 // Write a test that fizzbuzz, given 3, should return 'Fizz'.
+test('If input is 3, Should return Fizz', () => {
+    expect(fizzBuzz(3)).toBe('Fizz')
+})
 
 // We can skip a test for 4, since we can be pretty sure that it will pass. Let's instead write a test for 5. Given 5, fizzbuzz should return 'Buzz'.
 
