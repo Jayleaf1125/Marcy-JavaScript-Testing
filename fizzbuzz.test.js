@@ -31,5 +31,8 @@ test('If input is 10, should return Buzz', () => {
 })
 
 // Write a test that, given 15, fizzbuzz returns "FizzBuzz".
+test('If input is 15, should return FizzBuzz', () => {
+    expect(fizzBuzz(15)).toBe('FizzBuzz')
+})
 
 // Write a test that, given multiple of 15, returns "FizzBuzz"
