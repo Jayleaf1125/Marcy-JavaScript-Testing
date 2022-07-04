@@ -21,18 +21,21 @@ test('If input is 5, Should return Buzz', () => {
 })
 
 // At '6', we'll introduce another requirement: multiples of 3 should also return Fizz. Write a test that given 6, fizzbuzz should return 'Fizz'.
-test('If input is 6, Should return Fizz', () => {
+test('If input is a multiple of 3, Should return Fizz', () => {
     expect(fizzBuzz(6)).toBe('Fizz')
 })
 
 // We can skip the tests for 6, 7, 8, and 9 since we're already testing those cases. For our next test, write a test that given a multiple of 5, we should return 'Buzz'.
-test('If input is 10, should return Buzz', () => {
+test('If input is a multiple of 5, Should return Buzz', () => {
     expect(fizzBuzz(10)).toBe('Buzz')
 })
 
 // Write a test that, given 15, fizzbuzz returns "FizzBuzz".
-test('If input is 15, should return FizzBuzz', () => {
+test('If input is 15, Should return FizzBuzz', () => {
     expect(fizzBuzz(15)).toBe('FizzBuzz')
 })
 
 // Write a test that, given multiple of 15, returns "FizzBuzz"
+test('If input is a multiple of 15, Should return FizzBuzz', () => {
+    expect(fizzBuzz(30)).toBe('FizzBuzz')
+})
