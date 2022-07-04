@@ -26,6 +26,9 @@ test('If input is 6, Should return Fizz', () => {
 })
 
 // We can skip the tests for 6, 7, 8, and 9 since we're already testing those cases. For our next test, write a test that given a multiple of 5, we should return 'Buzz'.
+test('If input is 10, should return Buzz', () => {
+    expect(fizzBuzz(10)).toBe('Buzz')
+})
 
 // Write a test that, given 15, fizzbuzz returns "FizzBuzz".
 
