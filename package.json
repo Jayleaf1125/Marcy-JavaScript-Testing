@@ -1,0 +1,23 @@
+{
+  "name": "Marcy-JavaScript-Testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayleaf1125/Marcy-JavaScript-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayleaf1125/Marcy-JavaScript-Testing/issues"
+  },
+  "homepage": "https://github.com/Jayleaf1125/Marcy-JavaScript-Testing#readme",
+  "dependencies": {
+    "jest": "^28.1.2"
+  }
+}
